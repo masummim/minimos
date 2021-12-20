@@ -1,0 +1,201 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: playfair Display, serif;
+	font-size: ;
+	font-weight: ;
+	color: ;
+}
+/* header start */
+header{
+    padding: 21px 0px;
+    margin: 10px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 11%;
+    margin-top: 7px;
+    float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+    float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+    display: inline-block;
+    margin: 0 55px;
+    color: #626262;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #69DADB;
+	background-color: #1A374D;
+	border-radius: 4px;
+
+}
+/* header end */
+/*banner start*/
+.banner{}
+.b-img{}
+.b-img img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 70px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.p-content{}
+.c-tag{
+	font-family: ubuntu,sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 0;
+}
+.c-title{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 25px 0 17px;
+}
+.c-p{
+    line-height: 26px;
+    margin: 0;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding: 60px 0 20px;
+}
+.b-content{
+	overflow: hidden;
+}
+.single{
+	width: 48%;
+	float: left;
+	/*border: 1px solid;*/
+	margin-bottom: 75px;
+}
+.single:nth-child(even){
+    margin-left: 4%;
+}
+}
+.s-img{
+	margin-bottom: 30px;
+}
+.s-img img{
+	width: 100%;
+}
+
+/*blog end*/
+/*news start*/
+.news{
+	background-color: #F0F0F0;
+	padding: 145px 0;
+}
+.signup{
+	text-align: center;
+}
+.c-h1{
+color: #333333;
+}
+.s-form{
+	width: 400px;
+	margin: 0 auto;
+}
+.s-form input{
+
+}
+.s-form button{}
+.s-form button img{}
+/*news end*/
+/*blog2 start*/
+.load{
+	text-align: center;
+	margin: 50px 0;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	background: transparent;
+	cursor: pointer;
+	font-size: 20px;
+	box-shadow: 5px 10px #353C45;
+
+}
+/*blog2 end*/
+footer{
+	padding: 20px 0;
+	background-color: #f0f0f0;
+}
+.trms{
+	width: 25%;
+	float: left;
+}
+.trms ul{
+	padding: 0;
+	overflow: hidden;
+}
+.trms ul li{
+	list-style: none;
+	float: left;
+}
+.trms ul li a{
+	margin: 0 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+.trms ul li:first-child a{
+	margin-left: 0;
+}
+.follow{
+	width: 20%;
+	float: right;
+}
+.follow ul{
+	float: right;
+}
+.follow ul li{
+	list-style: none;
+	float: left;
+}
+.follow ul li span{
+	margin: 0 10px;
+}
+.follow ul li a{
+	margin: 0 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+.follow ul li:last-child a{
+	margin-right: 0;
+}
+
